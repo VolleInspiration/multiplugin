@@ -1,0 +1,21 @@
+# MultiPlugin Configuration - written by communitygames - G3R_Bukkit
+
+
+Config:
+  message:
+    broadcast: Broadcast change in config.yml, please!
+    isOp: '&bYou´re an OP!'
+    isNoOp: '&bYou´re NOT an OP!'
+    join: '&a%p% &3has logged in.'
+    no-Op: true
+    quit: '&e%p% &3has logged out.'
+    hello: 'Hello &6%p% &f!'
+    heal-pheal-error: '&6Your heal Level is to high.'
+  update-info-start: true
+  update-info-on-start: true
+  update-info-log: true
+  banned-player-in-log: true
+# A player has 20 half hearts.
+  heal-pheal: 5
+  test:
+    language: De

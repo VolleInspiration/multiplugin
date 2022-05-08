@@ -1,0 +1,159 @@
+name: multiplugin
+version: v1.3.0.0
+main: me.communitygames.multiplugin.multiplugin
+author: communitygames
+commands:
+     multiplugin.*:
+          description: Gives access to all MultiPlugin commands
+          children:
+               multiplugin.armor: true
+               multiplugin.ban: true
+               multiplugin.ban?: true
+               multiplugin.bannedp: true
+               multiplugin.broadcast: true
+               multiplugin.day: true
+               multiplugin.del: true
+               multiplugin.fill: true
+               multiplugin.fly: true
+               multiplugin.isfly: true
+               multiplugin.food: true
+               multiplugin.gma: true
+               multiplugin.gmc: true
+               multiplugin.gms: true
+               multiplugin.health: true
+               multiplugin.hello: true
+               multiplugin.kick: true
+               multiplugin.kill: true
+               multiplugin.night: true
+               multiplugin.ops: true
+               multiplugin.pheal: true
+               multiplugin.rain: true
+               multiplugin.rules: true
+               multiplugin.save: true
+               multiplugin.suizide: true
+               multiplugin.sun: true
+               multiplugin.thunder: true
+               multiplugin.unban: true
+               multiplugin.version: true
+               multiplugin.test: true
+
+     test:
+          description: keine
+     armor:
+          description: There armor and a Sword.
+          permission: multiplugin.armor
+          permission-message: multiplugin says... You don't have Permission! 
+     ban:
+          description: Ban a Player!
+          permission: multiplugin.ban
+          permission-message: multiplugin says... You don't have Permission!
+     ban?:
+          description: checks if a player is banned
+          permission: multiplugin.isbanned
+          permission-message: multiplugin says... You don't have Permission!        
+     bannedp:
+          description: shows all banned players
+          permission: multiplugin.bannedp
+          permission-message: multiplugin says... You don't have Permission!  
+     broadcast:
+          description: Send a broadcast!
+          permission: multiplugin.broadcast
+          permission-message: multiplugin says... You don't have Permission!
+     day:
+          description: Set time to day.
+          permission: multiplugin.day
+          permission-message: multiplugin says... You don't have Permission! 
+     del:
+          description: Delete your inventar.
+          permission: multiplugin.del
+          permission-message: multiplugin says... You don't have Permission!          
+     fill:
+          description: Fill your inventory.
+          permission: multiplugin.fill
+          permission-message: multiplugin says... You don't have Permission! 
+     fly:
+          description: Fly?
+          permission: multiplugin.fly
+          permission-message: multiplugin says... You don't have Permission! 
+     isfly:
+          description: Is <target> flying at the moment?
+          permission: multiplugin.isfly
+          permission-message: multiplugin says... You don't have Permission!                     
+     food:
+          description: Are you hungry?
+          permission: multiplugin.food
+          permission-message: multiplugin says... You don't have Permission! 
+     gma:
+          description: Change GameMode to Adventure
+          permission: multiplugin.gma
+          permission-message: multiplugin says... You don't have Permission! 
+     gmc:
+          description: Change GameMode Creative
+          permission: multiplugin.gmc
+          permission-message: multiplugin says... You don't have Permission! 
+     gms:
+          description: Change GameMode Survival
+          permission: multiplugin.gms
+          permission-message: multiplugin says... You don't have Permission!
+     health:
+          description: You get full health!
+          permission: multiplugin.health
+          permission-message: multiplugin says... You don't have Permission!      
+     hello:
+          description: Says Hello.
+          permission: multiplugin.hello
+          permission-message: multiplugin says... You don't have Permission!
+     kick:
+          description: Kick a player!
+          permission: multiplugin.kick
+          permission-message: multiplugin says... You don't have Permission!  
+     kill:
+          description: Kills a player or yourself!
+          permission: multiplugin.kill
+          permission-message: multiplugin says... You don't have Permission!
+     night:
+          description: Set time to night.
+          permission: multiplugin.night
+          permission-message: multiplugin says... You don't have Permission! 
+     ops:
+          description: see all ops
+          permission: multiplugin.ops
+          permission-message: multiplugin says... You don't have Permission! 
+     pheal:
+          description: Heal's you.
+          permission: multiplugin.pheal
+          permission-message: multiplugin says... You don't have Permission!
+     rain:
+          description: Change weather to rain.
+          permission: multiplugin.rain
+          permission-message: multiplugin says... You don't have Permission!    
+     rules:
+          description: under construction...
+          permission: multiplugin.rules
+          permission-message: multiplugin says... You don't have Permission!                
+     save:
+          description: Save your world.
+          permission: multiplugin.save
+          permission-message: multiplugin says... You don't have Permission! 
+     suizide:
+          description: What is a SUIZIDE???
+          permission: multiplugin.suizide
+          permission-message: multiplugin says... You don't have Permission!
+     sun:
+          description: Change weather to clear.
+          permission: multiplugin.sun
+          permission-message: multiplugin says... You don't have Permission!          
+     thunder:
+          description: Change weather to thunder.
+          permission: multiplugin.thunder
+          permission-message: multiplugin says... You don't have Permission! 
+     unban:
+          description: Unbans a Player!
+          permission: multiplugin.unban
+          permission-message: multiplugin says... You don't have Permission! 
+     mphelp:
+          description: display help menu for multiplugin
+     mpversion:
+          description: Print the actually version.
+          permission: multiplugin.version
+          permission-message: multiplugin says... You don't have Permission!

@@ -1,0 +1,46 @@
+05.03.2015
+*fix compatibility to new bukkit version
+___________________________
+28.09.2013
+
+*fix /fill command
+
+
+25.09.2013
+
+*edit info.txt translate DE --> EN
+*edit /ban command 
+*edit /bannedp command (Full list in your LOG)
+*edit /broadcast textchanged
+*edit /kill command textchanged
+*edit /health command textchanged
+*edit /food command textchanged
+*fix /del command (delete armor too)
+*hide /help command
+
+
+22.09.2013 (craftbukkit 1.6.4)
+
+*add craftbukkit 1.6.4
+*fix /pheal command (p.getHealth(); (cast))
+*fix /health command (p.getHealth(); (cast); sich selber und andere spieler)
+*fix /kill command  (p.getHealth(); (cast); sich selber und andere spieler)
+*fix /suizide command
+*fix /fill (warning message)
+*fix /armor (warning message)
+
+21.09.2013 pt.2
+
+*edit main class
+*fix permission "hello"
+
+
+_____________________
+21.09.2013 (uploaded):
+
+*fix problem with update checker
+*fix plugin.yml
+*edit text in log
+*edit text in info.txt
+*edit text mpversion
+*add "/mpversion"
